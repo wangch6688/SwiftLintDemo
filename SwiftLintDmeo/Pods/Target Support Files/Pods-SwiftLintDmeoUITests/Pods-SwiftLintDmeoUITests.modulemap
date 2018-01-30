@@ -1,0 +1,6 @@
+framework module Pods_SwiftLintDmeoUITests {
+  umbrella header "Pods-SwiftLintDmeoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

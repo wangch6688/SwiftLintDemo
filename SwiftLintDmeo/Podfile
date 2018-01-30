@@ -1,0 +1,21 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'SwiftLintDmeo' do
+
+	pod 'SwiftLint'
+	pod ‘Alamofire’
+
+  target 'SwiftLintDmeoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SwiftLintDmeoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+

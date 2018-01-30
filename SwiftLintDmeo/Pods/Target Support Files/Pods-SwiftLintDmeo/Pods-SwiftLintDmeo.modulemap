@@ -1,0 +1,6 @@
+framework module Pods_SwiftLintDmeo {
+  umbrella header "Pods-SwiftLintDmeo-umbrella.h"
+
+  export *
+  module * { export * }
+}

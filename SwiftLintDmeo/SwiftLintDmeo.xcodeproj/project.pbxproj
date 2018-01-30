@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		644FABA05C0AB51329B1D623 /* Pods_SwiftLintDmeoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B434ED1977B8858CF9FC960 /* Pods_SwiftLintDmeoTests.framework */; };
+		92C1E95A0AB5D539ED3CB066 /* Pods_SwiftLintDmeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5BD8FBD21061EB89E277E5 /* Pods_SwiftLintDmeo.framework */; };
 		E70A20A7201F071A004FCF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A20A6201F071A004FCF81 /* AppDelegate.swift */; };
 		E70A20A9201F071A004FCF81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A20A8201F071A004FCF81 /* ViewController.swift */; };
 		E70A20AC201F071A004FCF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70A20AA201F071A004FCF81 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		E70A20B1201F071A004FCF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70A20AF201F071A004FCF81 /* LaunchScreen.storyboard */; };
 		E70A20BC201F071A004FCF81 /* SwiftLintDmeoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A20BB201F071A004FCF81 /* SwiftLintDmeoTests.swift */; };
 		E70A20C7201F071A004FCF81 /* SwiftLintDmeoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A20C6201F071A004FCF81 /* SwiftLintDmeoUITests.swift */; };
+		FEF5E987815F1327238CEF37 /* Pods_SwiftLintDmeoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209E243640637AA90ECBC2C9 /* Pods_SwiftLintDmeoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		209E243640637AA90ECBC2C9 /* Pods_SwiftLintDmeoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLintDmeoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B434ED1977B8858CF9FC960 /* Pods_SwiftLintDmeoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLintDmeoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5E70EC490E582488169157 /* Pods-SwiftLintDmeoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLintDmeoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLintDmeoTests/Pods-SwiftLintDmeoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8848EBA5EB7F8992232C4FC8 /* Pods-SwiftLintDmeoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLintDmeoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLintDmeoTests/Pods-SwiftLintDmeoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA5BD8FBD21061EB89E277E5 /* Pods_SwiftLintDmeo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLintDmeo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCC9944969B2D96E7001A5E /* Pods-SwiftLintDmeo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLintDmeo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLintDmeo/Pods-SwiftLintDmeo.debug.xcconfig"; sourceTree = "<group>"; };
+		C4B0F033B1854F58D48583C0 /* Pods-SwiftLintDmeo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLintDmeo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLintDmeo/Pods-SwiftLintDmeo.release.xcconfig"; sourceTree = "<group>"; };
+		DFB8B87CF7E4AF9D2AE35E74 /* Pods-SwiftLintDmeoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLintDmeoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLintDmeoUITests/Pods-SwiftLintDmeoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E70A20A3201F071A004FCF81 /* SwiftLintDmeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLintDmeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70A20A6201F071A004FCF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E70A20A8201F071A004FCF81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		E70A20C2201F071A004FCF81 /* SwiftLintDmeoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLintDmeoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70A20C6201F071A004FCF81 /* SwiftLintDmeoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLintDmeoUITests.swift; sourceTree = "<group>"; };
 		E70A20C8201F071A004FCF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7AD1383A044105FA726B6C /* Pods-SwiftLintDmeoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLintDmeoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLintDmeoUITests/Pods-SwiftLintDmeoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C1E95A0AB5D539ED3CB066 /* Pods_SwiftLintDmeo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644FABA05C0AB51329B1D623 /* Pods_SwiftLintDmeoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF5E987815F1327238CEF37 /* Pods_SwiftLintDmeoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FE585E851C555D2C2F98CAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADCC9944969B2D96E7001A5E /* Pods-SwiftLintDmeo.debug.xcconfig */,
+				C4B0F033B1854F58D48583C0 /* Pods-SwiftLintDmeo.release.xcconfig */,
+				6F5E70EC490E582488169157 /* Pods-SwiftLintDmeoTests.debug.xcconfig */,
+				8848EBA5EB7F8992232C4FC8 /* Pods-SwiftLintDmeoTests.release.xcconfig */,
+				ED7AD1383A044105FA726B6C /* Pods-SwiftLintDmeoUITests.debug.xcconfig */,
+				DFB8B87CF7E4AF9D2AE35E74 /* Pods-SwiftLintDmeoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6AF4E6BB8315ADD5AA0F662 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5BD8FBD21061EB89E277E5 /* Pods_SwiftLintDmeo.framework */,
+				5B434ED1977B8858CF9FC960 /* Pods_SwiftLintDmeoTests.framework */,
+				209E243640637AA90ECBC2C9 /* Pods_SwiftLintDmeoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E70A209A201F071A004FCF81 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				E70A20BA201F071A004FCF81 /* SwiftLintDmeoTests */,
 				E70A20C5201F071A004FCF81 /* SwiftLintDmeoUITests */,
 				E70A20A4201F071A004FCF81 /* Products */,
+				1FE585E851C555D2C2F98CAA /* Pods */,
+				C6AF4E6BB8315ADD5AA0F662 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E70A20CB201F071A004FCF81 /* Build configuration list for PBXNativeTarget "SwiftLintDmeo" */;
 			buildPhases = (
+				DFB2F595ABB21EA042C8304D /* [CP] Check Pods Manifest.lock */,
 				E70A209F201F071A004FCF81 /* Sources */,
 				E70A20A0201F071A004FCF81 /* Frameworks */,
 				E70A20A1201F071A004FCF81 /* Resources */,
+				73AC1762081CADBBE10DD998 /* [CP] Embed Pods Frameworks */,
+				3C2F8B1FA2B2E0EF41D93B0B /* [CP] Copy Pods Resources */,
+				E70A20D4201F1ACA004FCF81 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -149,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E70A20CE201F071A004FCF81 /* Build configuration list for PBXNativeTarget "SwiftLintDmeoTests" */;
 			buildPhases = (
+				4D11D54E949465B2BFBDAEC7 /* [CP] Check Pods Manifest.lock */,
 				E70A20B3201F071A004FCF81 /* Sources */,
 				E70A20B4201F071A004FCF81 /* Frameworks */,
 				E70A20B5201F071A004FCF81 /* Resources */,
+				A6379B4D2F13511AC350B744 /* [CP] Embed Pods Frameworks */,
+				866BFB7FD7F681E6F72AB8A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E70A20D1201F071A004FCF81 /* Build configuration list for PBXNativeTarget "SwiftLintDmeoUITests" */;
 			buildPhases = (
+				CF9FA4856C3A6E5EF1526EF8 /* [CP] Check Pods Manifest.lock */,
 				E70A20BE201F071A004FCF81 /* Sources */,
 				E70A20BF201F071A004FCF81 /* Frameworks */,
 				E70A20C0201F071A004FCF81 /* Resources */,
+				B29A4BDB49FE68C442277998 /* [CP] Embed Pods Frameworks */,
+				D8EED04EC96865A726570315 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +303,170 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C2F8B1FA2B2E0EF41D93B0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLintDmeo/Pods-SwiftLintDmeo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D11D54E949465B2BFBDAEC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftLintDmeoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73AC1762081CADBBE10DD998 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLintDmeo/Pods-SwiftLintDmeo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLintDmeo/Pods-SwiftLintDmeo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		866BFB7FD7F681E6F72AB8A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLintDmeoTests/Pods-SwiftLintDmeoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6379B4D2F13511AC350B744 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLintDmeoTests/Pods-SwiftLintDmeoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B29A4BDB49FE68C442277998 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLintDmeoUITests/Pods-SwiftLintDmeoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF9FA4856C3A6E5EF1526EF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftLintDmeoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8EED04EC96865A726570315 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLintDmeoUITests/Pods-SwiftLintDmeoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFB2F595ABB21EA042C8304D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftLintDmeo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E70A20D4201F1ACA004FCF81 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint autocorrect\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E70A209F201F071A004FCF81 /* Sources */ = {
@@ -424,11 +638,13 @@
 		};
 		E70A20CC201F071A004FCF81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADCC9944969B2D96E7001A5E /* Pods-SwiftLintDmeo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D7Q249K9TW;
 				INFOPLIST_FILE = SwiftLintDmeo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-startView.King.SwiftLintDmeo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +655,13 @@
 		};
 		E70A20CD201F071A004FCF81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4B0F033B1854F58D48583C0 /* Pods-SwiftLintDmeo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D7Q249K9TW;
 				INFOPLIST_FILE = SwiftLintDmeo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-startView.King.SwiftLintDmeo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,6 +672,7 @@
 		};
 		E70A20CF201F071A004FCF81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5E70EC490E582488169157 /* Pods-SwiftLintDmeoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +690,7 @@
 		};
 		E70A20D0201F071A004FCF81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8848EBA5EB7F8992232C4FC8 /* Pods-SwiftLintDmeoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +708,7 @@
 		};
 		E70A20D2201F071A004FCF81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED7AD1383A044105FA726B6C /* Pods-SwiftLintDmeoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +725,7 @@
 		};
 		E70A20D3201F071A004FCF81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB8B87CF7E4AF9D2AE35E74 /* Pods-SwiftLintDmeoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
