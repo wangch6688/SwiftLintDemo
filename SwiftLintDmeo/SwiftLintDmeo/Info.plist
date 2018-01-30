@@ -2,6 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Asap-Bold 13-59-19-469.ttf</string>
+		<string>Asap-Bold.ttf</string>
+		<string>Asap-BoldItalic.ttf</string>
+		<string>Asap-Italic.ttf</string>
+		<string>Asap-Medium.ttf</string>
+		<string>Asap-MediumItalic.ttf</string>
+		<string>Asap-Regular..ttf</string>
+		<string>Asap-SemiBold.ttf</string>
+		<string>Asap-SemiBoldItalic.ttf</string>
+		<string>Audi-Extended-Bold.ttf</string>
+		<string>Audi-Screen-Normal.ttf</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
