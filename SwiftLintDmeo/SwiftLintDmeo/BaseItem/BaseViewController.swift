@@ -9,18 +9,18 @@
 import UIKit
 
 class BaseViewController: UIViewController, UIGestureRecognizerDelegate {
-    
+
     enum CustomBarStyle {
         case `default`
         case light
     }
-    
+
     var barStyle: CustomBarStyle = .default {
         didSet {
             self.setNeedsStatusBarAppearanceUpdate()
         }
     }
-    
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.layer.shadowColor = UIColor.black.cgColor
@@ -32,25 +32,25 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate {
             self.navigationController?.navigationBar.shadowImage = UIImage()
         }
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // 全屏右滑返回手势
         /*let target = navigationController?.interactivePopGestureRecognizer?.delegate
          let panGesture = UIPanGestureRecognizer(target: target, action: #selector(handleNavigationTransition(_:)))
          panGesture.delegate = self
          view.addGestureRecognizer(panGesture)
          navigationController?.interactivePopGestureRecognizer?.isEnabled = false*/
-        
+
         //系统右滑返回手势
         navigationController?.interactivePopGestureRecognizer?.delegate = self
-        
+
         // Do any additional setup after loading the view.
         view.backgroundColor = UIColor.white
         self.automaticallyAdjustsScrollViewInsets = false
     }
-    
+
     override var preferredStatusBarStyle: UIStatusBarStyle {
         if self.barStyle == .default {
             return .default
@@ -58,11 +58,11 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate {
             return .lightContent
         }
     }
-    
+
     func handleNavigationTransition(_ sender: UIPanGestureRecognizer) {
-        
+
     }
-    
+
     func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
         if navigationController?.childViewControllers.count == 1 {
             return false
@@ -70,12 +70,12 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate {
             return true
         }
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     /*
      // MARK: - Navigation
      
@@ -85,7 +85,7 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate {
      // Pass the selected object to the new view controller.
      }
      */
-    
+
 }
 /*
  extension BaseViewController: NotificationButtonPressedProtocol {
@@ -96,4 +96,3 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate {
  func cancelHasbeenPressed() {}
  }
  */
-

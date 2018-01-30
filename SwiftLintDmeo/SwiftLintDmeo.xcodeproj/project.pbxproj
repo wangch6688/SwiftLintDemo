@@ -29,6 +29,8 @@
 		E70A21332020491D004FCF81 /* Audi-Screen-Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E70A21282020491D004FCF81 /* Audi-Screen-Normal.ttf */; };
 		E70A213A20204A41004FCF81 /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A213920204A41004FCF81 /* BaseNavigationViewController.swift */; };
 		E70A213C20204AD5004FCF81 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A213B20204AD5004FCF81 /* BaseViewController.swift */; };
+		E70A213F20204BBF004FCF81 /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A213D20204BBF004FCF81 /* NormalViewController.swift */; };
+		E70A214020204BBF004FCF81 /* NormalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E70A213E20204BBF004FCF81 /* NormalViewController.xib */; };
 		FEF5E987815F1327238CEF37 /* Pods_SwiftLintDmeoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209E243640637AA90ECBC2C9 /* Pods_SwiftLintDmeoUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +86,8 @@
 		E70A21282020491D004FCF81 /* Audi-Screen-Normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Audi-Screen-Normal.ttf"; sourceTree = "<group>"; };
 		E70A213920204A41004FCF81 /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
 		E70A213B20204AD5004FCF81 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E70A213D20204BBF004FCF81 /* NormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
+		E70A213E20204BBF004FCF81 /* NormalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalViewController.xib; sourceTree = "<group>"; };
 		ED7AD1383A044105FA726B6C /* Pods-SwiftLintDmeoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLintDmeoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLintDmeoUITests/Pods-SwiftLintDmeoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -257,6 +261,8 @@
 		E70A21372020494F004FCF81 /* NormalStyle */ = {
 			isa = PBXGroup;
 			children = (
+				E70A213D20204BBF004FCF81 /* NormalViewController.swift */,
+				E70A213E20204BBF004FCF81 /* NormalViewController.xib */,
 			);
 			path = NormalStyle;
 			sourceTree = "<group>";
@@ -392,6 +398,7 @@
 				E70A21292020491D004FCF81 /* Asap-Bold 13-59-19-469.ttf in Resources */,
 				E70A20B1201F071A004FCF81 /* LaunchScreen.storyboard in Resources */,
 				E70A20AE201F071A004FCF81 /* Assets.xcassets in Resources */,
+				E70A214020204BBF004FCF81 /* NormalViewController.xib in Resources */,
 				E70A21312020491D004FCF81 /* Asap-SemiBoldItalic.ttf in Resources */,
 				E70A212E2020491D004FCF81 /* Asap-MediumItalic.ttf in Resources */,
 				E70A212B2020491D004FCF81 /* Asap-BoldItalic.ttf in Resources */,
@@ -590,6 +597,7 @@
 				E70A213A20204A41004FCF81 /* BaseNavigationViewController.swift in Sources */,
 				E70A213C20204AD5004FCF81 /* BaseViewController.swift in Sources */,
 				E70A20A9201F071A004FCF81 /* ViewController.swift in Sources */,
+				E70A213F20204BBF004FCF81 /* NormalViewController.swift in Sources */,
 				E70A20A7201F071A004FCF81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

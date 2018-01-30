@@ -9,18 +9,18 @@
 import UIKit
 
 class BaseNavigationController: UINavigationController {
-    
+
     enum CustomBarStyle {
         case `default`
         case light
     }
-    
+
     var barStyle: CustomBarStyle = .default {
         didSet {
             self.setNeedsStatusBarAppearanceUpdate()
         }
     }
-    
+
     override var preferredStatusBarStyle: UIStatusBarStyle {
         if self.barStyle == .default {
             return .default
@@ -28,10 +28,10 @@ class BaseNavigationController: UINavigationController {
             return .lightContent
         }
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         if let font = UIFont(name: "normalFontIdentifier", size: 15) {
             self.navigationBar.titleTextAttributes = [
                 .foregroundColor: UIColor.black,
@@ -40,10 +40,10 @@ class BaseNavigationController: UINavigationController {
         }
         self.navigationBar.isTranslucent = false
     }
-    
+
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         super.pushViewController(viewController, animated: animated)
-        
+
         if self.viewControllers.count > 1 {
             let backButton = UIButton(type: .custom)
             let backArrowImage = UIImage(named: "back-meta-small", in: nil, compatibleWith: nil)
@@ -52,22 +52,22 @@ class BaseNavigationController: UINavigationController {
             backButton.addTarget(self, action: #selector(tapBack(sender:)), for: .touchUpInside)
             let leftBarButtonItem = UIBarButtonItem(customView: backButton)
             viewController.navigationItem.leftBarButtonItem = leftBarButtonItem
-            
+
         } else {
             let nilBackBarButtonItem = UIBarButtonItem(customView: UIView())
             viewController.navigationItem.leftBarButtonItem = nilBackBarButtonItem
         }
     }
-    
+
     @objc func tapBack(sender: UIButton) {
         self.popViewController(animated: true)
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     /*
      // MARK: - Navigation
      
@@ -77,5 +77,5 @@ class BaseNavigationController: UINavigationController {
      // Pass the selected object to the new view controller.
      }
      */
-    
+
 }
