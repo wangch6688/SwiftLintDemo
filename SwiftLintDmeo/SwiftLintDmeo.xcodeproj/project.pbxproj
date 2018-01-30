@@ -164,9 +164,6 @@
 				E70A213420204946004FCF81 /* Default */,
 				E70A21382020497D004FCF81 /* Support File */,
 				E70A21352020494F004FCF81 /* Main */,
-				E70A20A6201F071A004FCF81 /* AppDelegate.swift */,
-				E70A20A8201F071A004FCF81 /* ViewController.swift */,
-				E70A20AA201F071A004FCF81 /* Main.storyboard */,
 				E70A20AD201F071A004FCF81 /* Assets.xcassets */,
 				E70A20AF201F071A004FCF81 /* LaunchScreen.storyboard */,
 				E70A20B2201F071A004FCF81 /* Info.plist */,
@@ -228,6 +225,9 @@
 		E70A213420204946004FCF81 /* Default */ = {
 			isa = PBXGroup;
 			children = (
+				E70A20A8201F071A004FCF81 /* ViewController.swift */,
+				E70A20A6201F071A004FCF81 /* AppDelegate.swift */,
+				E70A20AA201F071A004FCF81 /* Main.storyboard */,
 			);
 			path = Default;
 			sourceTree = "<group>";
