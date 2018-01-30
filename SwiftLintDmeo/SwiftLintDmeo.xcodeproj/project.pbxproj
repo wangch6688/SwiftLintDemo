@@ -16,6 +16,17 @@
 		E70A20B1201F071A004FCF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70A20AF201F071A004FCF81 /* LaunchScreen.storyboard */; };
 		E70A20BC201F071A004FCF81 /* SwiftLintDmeoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A20BB201F071A004FCF81 /* SwiftLintDmeoTests.swift */; };
 		E70A20C7201F071A004FCF81 /* SwiftLintDmeoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A20C6201F071A004FCF81 /* SwiftLintDmeoUITests.swift */; };
+		E70A2110202041B8004FCF81 /* Asap-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E70A2105202041B8004FCF81 /* Asap-Bold.ttf */; };
+		E70A2111202041B8004FCF81 /* Asap-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E70A2106202041B8004FCF81 /* Asap-SemiBold.ttf */; };
+		E70A2112202041B8004FCF81 /* Asap-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E70A2107202041B8004FCF81 /* Asap-Regular.ttf */; };
+		E70A2113202041B8004FCF81 /* Asap-Bold 13-59-19-469.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E70A2108202041B8004FCF81 /* Asap-Bold 13-59-19-469.ttf */; };
+		E70A2114202041B8004FCF81 /* Asap-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E70A2109202041B8004FCF81 /* Asap-Italic.ttf */; };
+		E70A2115202041B8004FCF81 /* Asap-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E70A210A202041B8004FCF81 /* Asap-BoldItalic.ttf */; };
+		E70A2116202041B8004FCF81 /* Asap-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E70A210B202041B8004FCF81 /* Asap-MediumItalic.ttf */; };
+		E70A2117202041B8004FCF81 /* Asap-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E70A210C202041B8004FCF81 /* Asap-SemiBoldItalic.ttf */; };
+		E70A2118202041B8004FCF81 /* Asap-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E70A210D202041B8004FCF81 /* Asap-Medium.ttf */; };
+		E70A2119202041B8004FCF81 /* Audi-Extended-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E70A210E202041B8004FCF81 /* Audi-Extended-Bold.ttf */; };
+		E70A211A202041B8004FCF81 /* Audi-Screen-Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E70A210F202041B8004FCF81 /* Audi-Screen-Normal.ttf */; };
 		FEF5E987815F1327238CEF37 /* Pods_SwiftLintDmeoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209E243640637AA90ECBC2C9 /* Pods_SwiftLintDmeoUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +69,17 @@
 		E70A20C2201F071A004FCF81 /* SwiftLintDmeoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLintDmeoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70A20C6201F071A004FCF81 /* SwiftLintDmeoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLintDmeoUITests.swift; sourceTree = "<group>"; };
 		E70A20C8201F071A004FCF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70A2105202041B8004FCF81 /* Asap-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-Bold.ttf"; sourceTree = "<group>"; };
+		E70A2106202041B8004FCF81 /* Asap-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-SemiBold.ttf"; sourceTree = "<group>"; };
+		E70A2107202041B8004FCF81 /* Asap-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-Regular.ttf"; sourceTree = "<group>"; };
+		E70A2108202041B8004FCF81 /* Asap-Bold 13-59-19-469.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-Bold 13-59-19-469.ttf"; sourceTree = "<group>"; };
+		E70A2109202041B8004FCF81 /* Asap-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-Italic.ttf"; sourceTree = "<group>"; };
+		E70A210A202041B8004FCF81 /* Asap-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E70A210B202041B8004FCF81 /* Asap-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E70A210C202041B8004FCF81 /* Asap-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E70A210D202041B8004FCF81 /* Asap-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-Medium.ttf"; sourceTree = "<group>"; };
+		E70A210E202041B8004FCF81 /* Audi-Extended-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Audi-Extended-Bold.ttf"; sourceTree = "<group>"; };
+		E70A210F202041B8004FCF81 /* Audi-Screen-Normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Audi-Screen-Normal.ttf"; sourceTree = "<group>"; };
 		ED7AD1383A044105FA726B6C /* Pods-SwiftLintDmeoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLintDmeoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLintDmeoUITests/Pods-SwiftLintDmeoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +165,7 @@
 				E70A20AD201F071A004FCF81 /* Assets.xcassets */,
 				E70A20AF201F071A004FCF81 /* LaunchScreen.storyboard */,
 				E70A20B2201F071A004FCF81 /* Info.plist */,
+				E70A210420204182004FCF81 /* Font */,
 			);
 			path = SwiftLintDmeo;
 			sourceTree = "<group>";
@@ -163,6 +186,25 @@
 				E70A20C8201F071A004FCF81 /* Info.plist */,
 			);
 			path = SwiftLintDmeoUITests;
+			sourceTree = "<group>";
+		};
+		E70A210420204182004FCF81 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E70A2108202041B8004FCF81 /* Asap-Bold 13-59-19-469.ttf */,
+				E70A2105202041B8004FCF81 /* Asap-Bold.ttf */,
+				E70A210A202041B8004FCF81 /* Asap-BoldItalic.ttf */,
+				E70A2109202041B8004FCF81 /* Asap-Italic.ttf */,
+				E70A210D202041B8004FCF81 /* Asap-Medium.ttf */,
+				E70A210B202041B8004FCF81 /* Asap-MediumItalic.ttf */,
+				E70A2107202041B8004FCF81 /* Asap-Regular.ttf */,
+				E70A2106202041B8004FCF81 /* Asap-SemiBold.ttf */,
+				E70A210C202041B8004FCF81 /* Asap-SemiBoldItalic.ttf */,
+				E70A210E202041B8004FCF81 /* Audi-Extended-Bold.ttf */,
+				E70A210F202041B8004FCF81 /* Audi-Screen-Normal.ttf */,
+			);
+			name = Font;
+			path = CustomComponents/Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,9 +324,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70A211A202041B8004FCF81 /* Audi-Screen-Normal.ttf in Resources */,
+				E70A2110202041B8004FCF81 /* Asap-Bold.ttf in Resources */,
+				E70A2115202041B8004FCF81 /* Asap-BoldItalic.ttf in Resources */,
 				E70A20B1201F071A004FCF81 /* LaunchScreen.storyboard in Resources */,
 				E70A20AE201F071A004FCF81 /* Assets.xcassets in Resources */,
+				E70A2114202041B8004FCF81 /* Asap-Italic.ttf in Resources */,
+				E70A2113202041B8004FCF81 /* Asap-Bold 13-59-19-469.ttf in Resources */,
+				E70A2116202041B8004FCF81 /* Asap-MediumItalic.ttf in Resources */,
+				E70A2111202041B8004FCF81 /* Asap-SemiBold.ttf in Resources */,
+				E70A2112202041B8004FCF81 /* Asap-Regular.ttf in Resources */,
+				E70A2117202041B8004FCF81 /* Asap-SemiBoldItalic.ttf in Resources */,
+				E70A2118202041B8004FCF81 /* Asap-Medium.ttf in Resources */,
 				E70A20AC201F071A004FCF81 /* Main.storyboard in Resources */,
+				E70A2119202041B8004FCF81 /* Audi-Extended-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
