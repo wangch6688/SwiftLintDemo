@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -63,7 +63,7 @@
 		3634347B13545FB324AA596886496D2A /* Pods-SwiftLintDmeo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLintDmeo-acknowledgements.plist"; sourceTree = "<group>"; };
 		4329D16298C06786FFCEF9E36CD23DA5 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		48B74D282092965B4A5F4069A9360B52 /* Pods-SwiftLintDmeo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLintDmeo.debug.xcconfig"; sourceTree = "<group>"; };
-		491F2E45BBEA5BDD58A4B13D84CCBD8B /* Pods-SwiftLintDmeoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftLintDmeoUITests.modulemap"; sourceTree = "<group>"; };
+		491F2E45BBEA5BDD58A4B13D84CCBD8B /* Pods-SwiftLintDmeoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftLintDmeoUITests.modulemap"; sourceTree = "<group>"; };
 		54FFA468F63778321AC5D7A3DE1E7973 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		565F340FC30349F93D4113609E94F3A6 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		574307935A3AD8DDFE7C557AA010FA85 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		77217A9681EEAE5AD4E39D43D46082E9 /* Pods-SwiftLintDmeoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftLintDmeoTests-umbrella.h"; sourceTree = "<group>"; };
 		796366893FCDF6BD2D14563F654A7EC2 /* Pods-SwiftLintDmeoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLintDmeoTests.release.xcconfig"; sourceTree = "<group>"; };
 		7AE9B5E41C66B8E0964DDD29C5557411 /* Pods-SwiftLintDmeo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftLintDmeo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7BAE1098B44E6FF8DE7FF8518513FD8A /* Pods_SwiftLintDmeo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftLintDmeo.framework; path = "Pods-SwiftLintDmeo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAE1098B44E6FF8DE7FF8518513FD8A /* Pods_SwiftLintDmeo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLintDmeo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0BA8B2A06FF3E5DFB769FD9ACE66A5 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		7FE404ADA5549E2E22520488C4D4BFE2 /* Pods-SwiftLintDmeoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftLintDmeoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8159CC3A51969E5DAA9CF0019908D60F /* Pods-SwiftLintDmeoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLintDmeoTests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -84,23 +84,23 @@
 		88298770C926A14DB0DC16D20A33BCB2 /* Pods-SwiftLintDmeoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLintDmeoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		88AFC6793DD594D387BDAD9437B994F3 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		8C06641BCA2CA96CA7FFAEC8F695B3B5 /* Pods-SwiftLintDmeoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLintDmeoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E00021C9F3EB01736AA36E6F825B3CC /* Pods-SwiftLintDmeo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftLintDmeo.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E00021C9F3EB01736AA36E6F825B3CC /* Pods-SwiftLintDmeo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftLintDmeo.modulemap"; sourceTree = "<group>"; };
 		9F44E85A1D6BEAAAF58CAF8AD3FF6DC8 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		A3CA702E49A2718EEF492A888103BE42 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		ACECA997236591C35D1EE7A1DD831C5A /* Pods-SwiftLintDmeoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftLintDmeoUITests-dummy.m"; sourceTree = "<group>"; };
-		B428DD426D3ADF8746021A803D5B483F /* Pods-SwiftLintDmeoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftLintDmeoTests.modulemap"; sourceTree = "<group>"; };
+		B428DD426D3ADF8746021A803D5B483F /* Pods-SwiftLintDmeoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftLintDmeoTests.modulemap"; sourceTree = "<group>"; };
 		B7F1566D1380BAD3555888346E02FA87 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		BEED37DA68BEE024FC2D14A6C0430D94 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		C01F854C0C324CE9B2CF0D953F0039C0 /* Pods-SwiftLintDmeo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftLintDmeo-frameworks.sh"; sourceTree = "<group>"; };
 		C42E3E2F7273CE4D802C63989C93E18B /* Pods-SwiftLintDmeoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftLintDmeoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D6874D7304B5C76ACFEC601911EF3452 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		D7B7FD854096240859EE1BAF5B4C9F44 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		D8BEE98C127764078B26990DD9D1AE09 /* Pods_SwiftLintDmeoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftLintDmeoTests.framework; path = "Pods-SwiftLintDmeoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD55215B542B94E2CAB1556B2686142F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BEE98C127764078B26990DD9D1AE09 /* Pods_SwiftLintDmeoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLintDmeoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD55215B542B94E2CAB1556B2686142F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE288B1FF1BDDC9FAA91DD1EFCA25202 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E096B6B07E18816FB809B0E2B001151A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		E38BD8AB4DD0A8E3BAA2E13424EB62EF /* Pods_SwiftLintDmeoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftLintDmeoUITests.framework; path = "Pods-SwiftLintDmeoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E096B6B07E18816FB809B0E2B001151A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		E38BD8AB4DD0A8E3BAA2E13424EB62EF /* Pods_SwiftLintDmeoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLintDmeoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8214DC52A4F08570E8B9A678C85CE0C /* Pods-SwiftLintDmeo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLintDmeo.release.xcconfig"; sourceTree = "<group>"; };
 		EC16D983DCA9C4A0E016DFC4026A3619 /* Pods-SwiftLintDmeo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftLintDmeo-umbrella.h"; sourceTree = "<group>"; };
 		F2BAB9CFF2A90223A34703063AED187A /* Pods-SwiftLintDmeoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLintDmeoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -198,7 +198,6 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -249,7 +248,6 @@
 				13D61FC0EBF2353A765978147747FE16 /* Validation.swift */,
 				7D1F2BAE199FE05816B46F6BC790F01D /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
