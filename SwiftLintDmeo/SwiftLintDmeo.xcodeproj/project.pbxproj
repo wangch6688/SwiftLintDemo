@@ -31,6 +31,8 @@
 		E70A213C20204AD5004FCF81 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A213B20204AD5004FCF81 /* BaseViewController.swift */; };
 		E70A213F20204BBF004FCF81 /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A213D20204BBF004FCF81 /* NormalViewController.swift */; };
 		E70A214020204BBF004FCF81 /* NormalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E70A213E20204BBF004FCF81 /* NormalViewController.xib */; };
+		E70A214220205350004FCF81 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A214120205350004FCF81 /* GlobalConstants.swift */; };
+		E70A2144202054A6004FCF81 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A2143202054A6004FCF81 /* CustomColor.swift */; };
 		FEF5E987815F1327238CEF37 /* Pods_SwiftLintDmeoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209E243640637AA90ECBC2C9 /* Pods_SwiftLintDmeoUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +90,8 @@
 		E70A213B20204AD5004FCF81 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		E70A213D20204BBF004FCF81 /* NormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
 		E70A213E20204BBF004FCF81 /* NormalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalViewController.xib; sourceTree = "<group>"; };
+		E70A214120205350004FCF81 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		E70A2143202054A6004FCF81 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		ED7AD1383A044105FA726B6C /* Pods-SwiftLintDmeoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLintDmeoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLintDmeoUITests/Pods-SwiftLintDmeoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -270,6 +274,8 @@
 		E70A21382020497D004FCF81 /* Support File */ = {
 			isa = PBXGroup;
 			children = (
+				E70A214120205350004FCF81 /* GlobalConstants.swift */,
+				E70A2143202054A6004FCF81 /* CustomColor.swift */,
 			);
 			path = "Support File";
 			sourceTree = "<group>";
@@ -595,9 +601,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E70A213A20204A41004FCF81 /* BaseNavigationViewController.swift in Sources */,
+				E70A2144202054A6004FCF81 /* CustomColor.swift in Sources */,
 				E70A213C20204AD5004FCF81 /* BaseViewController.swift in Sources */,
 				E70A20A9201F071A004FCF81 /* ViewController.swift in Sources */,
 				E70A213F20204BBF004FCF81 /* NormalViewController.swift in Sources */,
+				E70A214220205350004FCF81 /* GlobalConstants.swift in Sources */,
 				E70A20A7201F071A004FCF81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

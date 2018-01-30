@@ -32,9 +32,9 @@ class BaseNavigationController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if let font = UIFont(name: "normalFontIdentifier", size: 15) {
+        if let font = UIFont(name: normalFontIdentifier, size: 15) {
             self.navigationBar.titleTextAttributes = [
-                .foregroundColor: UIColor.black,
+                .foregroundColor: AudiBlack,
                 .font: font
             ]
         }

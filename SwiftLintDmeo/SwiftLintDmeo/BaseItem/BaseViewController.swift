@@ -23,7 +23,7 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.navigationBar.layer.shadowColor = UIColor.black.cgColor
+        self.navigationController?.navigationBar.layer.shadowColor = AudiBlack.cgColor
         self.navigationController?.navigationBar.layer.shadowOffset = CGSize(width: 0, height: 1)
         self.navigationController?.navigationBar.layer.shadowOpacity = 0.2
         if let rect = self.navigationController?.navigationBar.bounds {
@@ -47,7 +47,7 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate {
         navigationController?.interactivePopGestureRecognizer?.delegate = self
 
         // Do any additional setup after loading the view.
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = AudiWhite
         self.automaticallyAdjustsScrollViewInsets = false
     }
 
