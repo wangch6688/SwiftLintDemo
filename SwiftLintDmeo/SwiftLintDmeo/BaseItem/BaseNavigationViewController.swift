@@ -59,7 +59,8 @@ class BaseNavigationController: UINavigationController {
         }
     }
 
-    @objc func tapBack(sender: UIButton) {
+    @objc
+    func tapBack(sender: UIButton) {
         self.popViewController(animated: true)
     }
 
