@@ -13,6 +13,14 @@ let audiExtendFontIdentifier = "Audi-Screen-Normal"
 let normalFontIdentifier = "Asap-Regular"
 let extendFontIdentifier = "Asap-SemiBold"
 
+let ScreenWidth = UIScreen.main.bounds.size.width
+let ScreenHeight = UIScreen.main.bounds.size.height
+
+let isIPhoneX = ScreenHeight == 812.0 ? true : false
+let OTNavigationBarHeight: CGFloat = isIPhoneX ? 88 : 64
+let OTTabBarHeight: CGFloat = isIPhoneX ? 83 : 49
+let OTStatusBarHeight: CGFloat = isIPhoneX ? 44 : 20
+
 extension UIColor {
     convenience init(hexString: String) {
         let hex = hexString.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
